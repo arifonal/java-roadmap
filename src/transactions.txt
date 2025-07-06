@@ -1,0 +1,4 @@
+D 2500    # Deposit 2 500 ₺
+W 1200    # Withdraw 1 200 ₺
+W -50     # (!) Negatif tutar
+W 2000    # Bakiye yetersizse run-time hata
