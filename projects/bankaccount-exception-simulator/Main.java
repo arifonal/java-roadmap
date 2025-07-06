@@ -10,7 +10,9 @@ public class Main {
     public static void main(String[] args) {
 
         BankAccount account = new BankAccount();
-        String file = "src/transactions.txt";   // dosya proje kökünde
+        System.out.println("Çalışma dizini: " + System.getProperty("user.dir"));
+
+        String file = "projects/bankaccount-exception-simulator/transactions.txt";
 
         /* try-with-resources → dosya otomatik kapanır */
         try (BufferedReader br = new BufferedReader(new FileReader(file))) {
